@@ -1,6 +1,7 @@
 # meridian-webpage
 This is a wiki for meridian 59 
 
+Install Node.js https://nodejs.org/en/download/
 Open the command line in the file directory of this application. 
 
 Within command line run =>           npm install
