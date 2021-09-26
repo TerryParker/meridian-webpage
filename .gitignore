@@ -1,0 +1,4 @@
+# Exclusions of 'obj' and 'bin' folders
+/node_Modules
+/public
+/.git
