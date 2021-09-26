@@ -302,6 +302,7 @@ function School () {
 
                     <h4>Level 5</h4>
                     <li>Archery</li>
+                    <li>Cleave</li>
 
                     <h4>Level 6</h4>
                     <li>Disarm</li>

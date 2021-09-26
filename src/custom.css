@@ -12,3 +12,15 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+table,
+table td {
+  border: 1px solid #cccccc;
+}
+
+td {
+  height: 19x;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
