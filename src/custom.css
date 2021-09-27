@@ -12,3 +12,57 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+table,
+table td {
+  border: 1px solid #cccccc;
+}
+
+td {
+  height: 19x;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div faren
+{
+    color: red;
+    font-size: 38px;
+}
+
+div jala
+{
+    color: rgb(8, 250, 8);
+    font-size: 38px;
+}
+
+div kraanan
+{
+    color: rgb(0, 13, 196);
+    font-size: 38px;
+}
+
+div qor
+{
+    color: rgb(0, 0, 0);
+    font-size: 38px;
+}
+
+div riija
+{
+    color: rgb(114, 1, 167);
+    font-size: 38px;
+}
+
+div shal
+{
+    color: rgb(197, 252, 0);
+    font-size: 38px;
+}
+
+div wc
+{
+    color: rgb(94, 94, 94);
+    font-size: 38px;
+}

@@ -6,6 +6,7 @@ import Weapons from './pages/Weapons';
 import { NavMenu }from './components/NavMenu';
 import Creature from './pages/Creatures';
 import School from './pages/School';
+import Npc from './pages/Npcs';
 import './custom.css'
 
 export default class App extends Component {
@@ -21,6 +22,7 @@ export default class App extends Component {
         <Route path='/creature' component={Creature} />
         <Route path='/weapons' component={Weapons} />
         <Route path='/schools' component={School} />
+        <Route path='/npcs' component={Npc} />
         </Switch>
       </Router>
     );
