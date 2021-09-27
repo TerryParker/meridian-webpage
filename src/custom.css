@@ -3,6 +3,10 @@ a {
   color: #0366d6;
 }
 
+body {
+  background-image: url("http://www.gilcon.net/meridian/images/m59back2.gif");
+}
+
 code {
   color: #E01A76;
 }
@@ -18,11 +22,25 @@ table td {
   border: 1px solid #cccccc;
 }
 
+h1 {
+  color: #BE976C;
+  font-weight: bold;
+}
+
 td {
+  color: #BE976C;
   height: 19x;
   width: 200px;
   text-align: center;
   vertical-align: middle;
+  font-weight: bold;
+}
+
+div h2
+{
+    font-weight: bold;
+    color: #BE976C;
+    font-size: 38px;
 }
 
 div faren

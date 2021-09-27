@@ -26,24 +26,24 @@ export class NavMenu extends Component {
       <header>
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
           <Container>
-            <NavbarBrand tag={Link} to="/">Meridian</NavbarBrand>
+            <NavbarBrand tag={Link} className="text-warning" to="/">Meridian 59</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
-              <ul className="navbar-nav flex-grow">
+              <ul className="navbar-nav flex-grow font-weight-bold">
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/armor">Armor</NavLink>
+                  <NavLink tag={Link} className="text-warning" to="/armor">Armor </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/creature">Creature</NavLink>
+                  <NavLink tag={Link} className="text-warning" to="/creature">Creatures</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/weapons">Weapons</NavLink>
+                  <NavLink tag={Link} className="text-warning" to="/weapons">Weapons</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/schools">Schools</NavLink>
+                  <NavLink tag={Link} className="text-warning" to="/schools">Schools</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/Npcs">Npcs</NavLink>
+                  <NavLink tag={Link} className="text-warning" to="/Npcs">Npcs</NavLink>
                 </NavItem>
               </ul>
             </Collapse>
